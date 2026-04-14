@@ -7,8 +7,8 @@ const Customers = () => {
   const [payAmount, setPayAmount] = useState({});
   const [payDate, setPayDate] = useState({});
 
-  // ✅ Your LIVE backend URL (replace with your real one)
-  const API_URL = "https://your-backend.onrender.com";
+  // ✅ FIXED: correct backend URL
+  const API_URL = "https://finance-e04s.onrender.com";
 
   const fetchCustomers = () => {
     axios.get(`${API_URL}/customers`)

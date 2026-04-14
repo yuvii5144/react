@@ -9,8 +9,7 @@ const AddCustomer = () => {
   const [startDate, setStartDate] = useState("");
 
   // ✅ Your LIVE backend URL (replace with your real Render link)
-  const API_URL = "https://your-backend.onrender.com";
-
+  const API_URL = "https://finance-e04s.onrender.com";
   const handleSubmit = async () => {
     if (!startDate) {
       alert("Please select start date");
