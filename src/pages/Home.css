@@ -1,0 +1,108 @@
+.home-container {
+  text-align: center;
+  padding: 30px 20px;
+  background: #f5f7fb;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.home-container h1 {
+  font-size: 38px;
+  color: #1e3c72;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+/* Buttons container */
+.home-buttons {
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.home-buttons button {
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.home-buttons button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* Report box */
+.report-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  display: inline-block;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Date input */
+.report-box input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Report button */
+.report-box button {
+  padding: 10px 15px;
+  background: #1e3c72;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.report-box button:hover {
+  background: #16315c;
+}
+
+/* Table */
+table {
+  width: 90%;
+  margin: 25px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+table th {
+  background: #2575fc;
+  color: white;
+  padding: 12px;
+  font-size: 15px;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+/* Hover row */
+table tr:hover {
+  background: #f1f5ff;
+}
+
+/* Total text */
+h3 {
+  margin-top: 15px;
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}

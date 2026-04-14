@@ -1,0 +1,60 @@
+.add-customer-container {
+  background: white;
+  padding: 30px;
+  max-width: 400px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Title */
+.add-customer-container h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Labels */
+.add-customer-container label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Inputs */
+.add-customer-container input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Input focus */
+.add-customer-container input:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+/* Button */
+.add-customer-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+.add-customer-container button:hover {
+  background: #1a5edb;
+}

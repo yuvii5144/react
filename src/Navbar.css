@@ -1,0 +1,31 @@
+.navbar {
+  width: 100%;
+  padding: 15px 0;
+
+  /* Solid dark background (contrast to colorful header) */
+  background-color: #9f9ffb;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* Nav container */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+/* Nav items */
+.nav-links li {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1b1919;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Simple hover (color change only) */
+.nav-links li:hover {
+  color: #ff7e5f; /* matches header tone */
+}

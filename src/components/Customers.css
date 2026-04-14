@@ -1,0 +1,38 @@
+.customers-container {
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #2575fc;
+  color: white;
+}
+
+input {
+  padding: 6px;
+  width: 80px;
+}
+
+button {
+  padding: 6px 12px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkgreen;
+}
